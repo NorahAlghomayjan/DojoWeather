@@ -1,8 +1,12 @@
 var tempreture = document.querySelector("#tempereture");
 var heighests = document.querySelectorAll(".highest");
 var lowests = document.querySelectorAll(".lowest");
+var popUp = document.querySelector(".pop-Up");
 
 tempreture.addEventListener("change",changeTemp);
+
+function removeCookie()
+{popUp.remove();}
 
 function changeTemp ()
 {

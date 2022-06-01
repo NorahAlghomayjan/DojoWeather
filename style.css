@@ -1,0 +1,46 @@
+* {margin: 0; font-family: 'Roboto', sans-serif;}
+
+
+/* TOP  */
+
+.top { background-color: rgb(106, 194, 244);display: flex; justify-content: center;}
+
+.align {width: 1000px;  margin: 10px;display: flex;align-items: center;}
+
+.websiteName {color: white; flex: 3;font-size: 40px;}
+
+.links {text-decoration: none; color: white; flex: 1;list-style: none; display: flex; justify-content: space-between;}
+
+.top a {text-decoration: none; color: white;}
+
+.city {font-size: 20px;}
+
+/* BOTTOM CONTENT */
+
+
+.content{display: flex;flex-direction: column; align-items: center;}
+
+.bottom {width: 1000px; margin: 10px;}
+
+/* TITLE */
+
+.title {display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid black; padding: 10px 0px 10px 0px; margin-bottom: 15px;}
+.tempOptions label { margin-right: 5px;}
+
+/* TEMPERETURE */
+
+.tempereture {display: flex; justify-content: space-between;}
+
+.box {background-color: rgb(230, 230, 230); width: 20%; text-align: center; padding: 5px;}
+.box * {margin: 12px auto 12px auto;}
+.box img { width:80%; border: none; border-radius: 50%;}
+.highest {margin-right: 50px; color: red; font-weight: bold; font-size: 25px;}
+.lowest {color: blue; font-weight: bold; font-size: 25px;}
+
+/*  COOKIES  */
+
+.pop-Up {border: 1px solid black; background-color: rgb(181, 181, 181);position: fixed; bottom: 5px; right: 50%; margin-right: -500px; width: 1000px;}
+
+.cookie-list {list-style: none; display: flex; align-items: center; padding: 15px;}
+#cookieMsg {flex: 3; margin: 10px;}
+.AcceptBtn {border: 1px solid black; box-shadow: 3px 3px black; background-color: rgb(112, 171, 205); padding: 5px;}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TOP -->
+    <div class="top">
+        <div class="align">
+            <div class="websiteName"> Dojo Weather</div>
+            <ul class="links">
+                <li><a href="#" class="city" onclick="alert('loading weather rerport')">BurBank</a></li>
+                <li><a href="#" class="city" onclick="alert('loading weather rerport')">Chicago</a></li>
+                <li><a href="#" class="city" onclick="alert('loading weather rerport')">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- BOTTOM CONTENT -->
+    <div class="content">
+        <div class="bottom">
+            <!-- TITLE -->
+            <div class="title">
+                <h1> San Jose </h1>
+                <div class="tempOptions">
+                    <label for="tempereture">show tempereture in</label>
+                    <select name="tempereture" id="tempereture">
+                        <option value="C">C</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+            </div>
+            <!-- TEMPERETURE -->
+            <div class="tempereture">
+                <div class="box">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" alt="Weather">
+                    <p>some rain</p>
+                    <p><span class="highest">24</span><span class="lowest">18</span></p>
+                </div>
+                <div class="box">
+                    <h2>Tomorrow</h2>
+                    <img src="assets/some_sun.png" alt="Weather">
+                    <p>some sun</p>
+                    <p><span class="highest">27</span><span class="lowest">20</span></p>
+                </div>
+                <div class="box">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" alt="Weather">
+                    <p>some clouds</p>
+                    <p><span class="highest">15</span><span class="lowest">10</span></p>
+                </div>
+                <div class="box">
+                    <h2>Saturday</h2>
+                    <img src="assets/some_sun.png" alt="Weather">
+                    <p>some sun</p>
+                    <p><span class="highest">30</span><span class="lowest">20</span></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- COOKIES -->
+    <div class="pop-Up">
+        <ul class="cookie-list">
+            <li><img src="assets/cookie.png" alt="cookies"></li>
+            <li id="cookieMsg">
+                <h3>Stop! Cookie time..</h3>
+                We use cookies to personalise content and ads, to provide social media features and to analyse our
+                traffic. We also share information about your use of our site with our social media <a href="#">Read
+                    more...</a>
+            </li>
+            <li><button onclick="" class="AcceptBtn">I Accept</button></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
